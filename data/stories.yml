@@ -68,6 +68,24 @@ stories:
 
 
 # Chapter 1 
+
+- story: Define Abortion
+  steps:
+  - intent: define_abortion
+  - action: utter_define_abortion
+
+- story: Define Contraception
+  steps:
+  - intent: define_contraception
+  - action: utter_define_contraception
+
+- story: Define Contraceptives
+  steps:
+  - intent: define_contraceptives
+  - action: utter_define_contraceptives
+
+
+
 - story: ask_about_reproductive_health_rights path
   steps:
   - intent: greet
