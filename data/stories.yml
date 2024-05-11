@@ -1,0 +1,147 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ask about rights path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_rights
+  - action: utter_ask_about_rights
+
+- story: share experience path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: share_experience
+  - action: utter_share_experience
+  - intent: express_support
+  - action: utter_express_support
+
+- story: express support path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: express_support
+  - action: utter_express_support
+  - intent: request_help
+  - action: utter_request_help
+  - intent: affirm
+  - action: utter_thank_for_support
+
+- story: request help path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: request_help
+  - action: utter_request_help
+  - intent: affirm
+  - action: utter_how_to_help
+  - action: utter_goodbye
+
+
+# Chapter 1 
+- story: ask_about_reproductive_health_rights path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_reproductive_health_rights
+  - action: utter_ask_about_reproductive_health_rights
+
+- story: obtain_reproductive_health_information path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: obtain_reproductive_health_information
+  - action: utter_obtain_reproductive_health_information
+
+- story: safe_motherhood_rights path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: safe_motherhood_rights
+  - action: utter_safe_motherhood_rights
+
+- story: contraceptives_information path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contraceptives_information
+  - action: utter_contraceptives_information
+
+- story: abortion_service_rights path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: abortion_service_rights
+  - action: utter_abortion_service_rights
+
+- story: rights_during_pregnancy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: rights_during_pregnancy
+  - action: utter_rights_during_pregnancy
+
+- story: postpartum_care_rights path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: postpartum_care_rights
+  - action: utter_postpartum_care_rights
+
+- story: emergency_obstetric_care_rights path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: emergency_obstetric_care_rights
+  - action: utter_emergency_obstetric_care_rights
+
+- story: reproductive_health_services_throughout_lifecycle path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: reproductive_health_services_throughout_lifecycle
+  - action: utter_reproductive_health_services_throughout_lifecycle
+
+- story: right_to_choice_of_reproductive_health_service path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: right_to_choice_of_reproductive_health_service
+  - action: utter_right_to_choice_of_reproductive_health_service
+
+- story: confidentiality_of_reproductive_health_services path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: confidentiality_of_reproductive_health_services
+  - action: utter_confidentiality_of_reproductive_health_services
+

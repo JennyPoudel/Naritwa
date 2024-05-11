@@ -1,0 +1,131 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - women's rights
+  - share_experience
+  - express_support
+  - request_help
+  - ask_about_rights
+  - define_abortion
+  - define_contraception
+  - define_contraceptives
+  - ask_about_reproductive_health_rights
+  - obtain_reproductive_health_information
+  - safe_motherhood_rights
+  - contraceptives_information
+  - abortion_service_rights
+  - rights_during_pregnancy
+  - postpartum_care_rights
+  - emergency_obstetric_care_rights
+  - reproductive_health_services_throughout_lifecycle
+  - right_to_choice_of_reproductive_health_service
+  - confidentiality_of_reproductive_health_services
+
+  
+
+
+responses:
+  utter_greet:
+  - text: "Hello.How can I help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_ask_about_rights:
+  - text: "Women's rights are the fundamental human rights that were enshrined by the United Nations for every human being on the planet nearly 70 years ago. These rights include the right to live free from violence, slavery, and discrimination; to be educated; to own property; to vote; and to earn a fair and equal wage."
+
+  utter_share_experience:
+  - text: "Thank you for trusting me with your story. It's important to bring these experiences to light. If you're comfortable, could you tell me more about what happened?"
+
+  utter_express_support:
+  - text: "I am sorry that this happened to you. Your voice is important in the fight for equality and justice.Please se."
+
+  utter_request_help:
+  - text: "There are many ways you can help support women's rights. You could volunteer at local NGOs, participate in awareness campaigns, or help educate others about the importance of equality. What area are you interested in contributing to?"
+ 
+  utter_how_to_help:
+  - text: "Here are a few ways you can help: volunteering, advocating, and educating others about women's rights. Which of these interests you the most?"
+  
+  utter_thank_for_support:
+  - text: "Thank you for your commitment to promoting women's rights. Your support makes a significant difference in advancing equality and justice."
+
+  utter_define_abortion:
+  - text: "Abortion is a medical procedure that terminates a pregnancy. It can be carried out through various methods, including medication or surgical procedures, depending on the gestational age and health considerations."
+
+  utter_define_contraception:
+  - text: "Contraception involves methods or devices used to prevent pregnancy. These range from barrier methods, hormonal methods, intrauterine devices, to behavioral approaches like fertility awareness."
+
+  utter_define_contraceptives:
+  - text: "Contraceptives are tools or medications used to prevent pregnancy. These include a wide range of options such as birth control pills, condoms, diaphragms, and long-acting reversible contraceptives like IUDs and implants."
+
+  utter_postpartum_care_rights:
+  - text: "After childbirth, you have the right to receive postpartum care including counseling, obstetric care, and access to contraception services to support your recovery and well-being."
+
+  utter_emergency_obstetric_care_rights:
+  - text: "You have the right to access emergency obstetric care for both yourself and your newborn. This includes basic and comprehensive emergency obstetric care, as well as essential care for the newborn baby."
+  
+  utter_reproductive_health_services_throughout_lifecycle:
+  - text: "Reproductive health services are available at different stages of your life, from adolescence to menopause. These services address various reproductive health needs and are provided in an easily accessible and safe manner."
+ 
+  utter_right_to_choice_of_reproductive_health_service:
+  - text: "You have the right to make choices regarding the reproductive health services you receive. This includes selecting the type of services that best meet your needs and preferences."
+
+  utter_confidentiality_of_reproductive_health_services:
+  - text: "Your reproductive health services are confidential. Information regarding the services you receive is kept private to ensure your privacy and confidentiality."
+  
+  utter_ask_about_reproductive_health_rights:
+  - text: "Reproductive health rights refer to the legal rights and freedoms relating to reproduction and reproductive health that vary among countries around the world. These rights help individuals to make informed decisions about their reproductive health without facing discrimination, coercion, or violence"
+ 
+  utter_define_safe_abortion:
+  - text: "Safe abortion refers to the termination of pregnancy under conditions that are safe for the woman, conducted by licensed healthcare providers, and in accordance with legal regulations."
+
+  utter_circumstances_for_safe_abortion:
+  - text: " A pregnant woman has the right to safe abortion in various circumstances, including:
+      - Up to twelve weeks of gestation with the woman's consent.
+      - Up to twenty-eight weeks in case of danger to the woman's life, physical or mental health, or risk of a disabled infant.
+      - Due to rape or incest, up to twenty-eight weeks with the woman's consent.
+      - If the woman is suffering from HIV or other incurable diseases, up to twenty-eight weeks with her consent.
+      - If there are defects in the fetus or risks to the woman's health, up to twenty-eight weeks with the consent of the woman and the opinion of a healthcare worker."
+
+  utter_prohibition_of_forceful_abortion:
+  - text: "It is illegal to conduct or force someone to undergo abortion with the intention of coercion, threats, or enticement. Abortion should only be performed with the voluntary and informed consent of the pregnant woman."
+
+  utter_acts_deemed_to_have_got_abortion_performed:
+  - text: "Acts considered as getting abortion conducted include coercing a pregnant woman, causing miscarriage due to enmity, or assisting in such acts. If a living infant is born during attempted abortion and dies immediately, it is also considered as getting abortion conducted."
+
+  utter_prohibition_of_sex_identification_abortion:
+  - text: "It is prohibited to conduct or cause to be conducted any act to identify the sex of the fetus in the womb. Pregnant women should not be pressured or coerced to know the sex of the fetus, and conducting abortion based on sex identification is strictly prohibited."
+
+  utter_safe_abortion_service_providers:
+  - text: "Safe abortion services should be provided by licensed healthcare workers who meet prescribed standards and qualifications. These services must be offered in licensed health institutions using appropriate technology and processes."
+
+  utter_consent_for_safe_abortion_service:
+  - text: "A pregnant woman seeking safe abortion services must give consent in the prescribed format to the licensed health institution or healthcare"
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
