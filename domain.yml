@@ -27,7 +27,33 @@ intents:
   - reproductive_health_services_throughout_lifecycle
   - right_to_choice_of_reproductive_health_service
   - confidentiality_of_reproductive_health_services
-
+  - appropriate_grant_amount
+  - appropriate_budget_by_local_level
+  - establish_reproductive_health_coordination_committee
+  - reproductive_health_information
+  - report_rape
+  - seek_support
+  - guide_to_support_services
+  - offer_resources
+  
+  - prohibition_of_incest
+  - prohibition_of_sexual_intercourse_with_detainee
+  - prohibition_of_sexual_intercourse_in_protection
+  - prohibition_of_sexual_intercourse_with_person_in_office
+  - prohibition_of_sexual_harassment
+  - prohibition_of_child_sexual_abuse
+  - prohibition_of_unnatural_sexual_intercourse
+  - prohibition_of_bestiality
+  - compensation_ordered_to_be_paid
+  - statute_of_limitation
+  - time_limit
+# Intents for the story
+  - national_penal_act
+  - file_a_complaint
+  - girl_child
+  - domestic_violence
+  - victim_rights
+  - thankyou
   
 
 
@@ -42,6 +68,39 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
+
+
+
+  utter_thankyou:
+  - text: "You're welcome. Remember, you're not alone in this. If you ever need further assistance or support, don't hesitate to reach out. Take care of yourself, and stay safe."
+
+  utter_victim_rights:
+  - text: "As per the act you have the following rights:
+
+If the you have been physically wounded or mentally tortured, you should be immediately sent to the nearest hospital or health post for a check-up. An injury report shall be drawn up, and a copy sent to the Police Station if prepared by the Local Body.
+If necessary, protection for you and your dependants shall be provided immediately with the assistance of the Police Office.
+Psychologists, sociologists, social activists, and trusted family members may be involved in the reconciliation process. The psychological and social effects on the victim, as well as their right to privacy, shall be considered during reconciliation.
+Duty of Police Office: The Police Office must provide you assistance as required at all times. "
+
+  utter_time_limit:
+  - text: "Yes, you must file a complaint within six months of gaining knowledge of the offense. Otherwise, you may lose the opportunity to pursue legal action. Is there anything else you want to share? This is a safe space and you can trust me with your problems."
+
+  utter_girl_child:
+  - text: " I'm sorry you're facing such a difficult situation. What you have mentioned is also a criminal offense under the Right to Safe Motherhood and Reproductive Health Act. According to it: 
+  
+
+
+No one shall commit or cause to be committed an act to identify the sex of the fetus in the womb.
+A pregnant woman shall not be pressurized or compelled or intimidated or coerced or enticed or entrapped in undue influence to identify the sex of the fetus.
+
+I recommend that you seek legal advice and support to navigate this process effectively. Remember, you are not alone, and there are people and resources available to help you through this challenging time."
+  
+  utter_domestic_violence:
+  - text: "I'm truly sorry to hear that. It is important for you to know that the Domestic Violence (Offence and Punishment) Act, 2066 (2009)  provides protection against domestic violence. It is explicitly stated in Chapter 3 , Subsection 1 that no one shall commit; or aid or abet; or incite the act of domestic violence. 
+Domestic violence is a serious crime, and you have the right to protection and support."
+
+
+
   utter_happy:
   - text: "Great, carry on!"
 
@@ -55,7 +114,7 @@ responses:
   - text: "Women's rights are the fundamental human rights that were enshrined by the United Nations for every human being on the planet nearly 70 years ago. These rights include the right to live free from violence, slavery, and discrimination; to be educated; to own property; to vote; and to earn a fair and equal wage."
 
   utter_share_experience:
-  - text: "Thank you for trusting me with your story. It's important to bring these experiences to light. If you're comfortable, could you tell me more about what happened?"
+  - text: "Thank you for trusting me with your story. It's important to bring these experiences to light. This is a safe space and you can trust me with your problems. If you're comfortable, could you tell me more about what happened?"
 
   utter_express_support:
   - text: "I am sorry that this happened to you. Your voice is important in the fight for equality and justice.Please se."
@@ -78,23 +137,6 @@ responses:
   utter_define_contraceptives:
   - text: "Contraceptives are tools or medications used to prevent pregnancy. These include a wide range of options such as birth control pills, condoms, diaphragms, and long-acting reversible contraceptives like IUDs and implants."
 
-  # utter_postpartum_care_rights:
-  # - text: "After childbirth, you have the right to receive postpartum care including counseling, obstetric care, and access to contraception services to support your recovery and well-being."
-
-  # utter_emergency_obstetric_care_rights:
-  # - text: "You have the right to access emergency obstetric care for both yourself and your newborn. This includes basic and comprehensive emergency obstetric care, as well as essential care for the newborn baby."
-  
-  # utter_reproductive_health_services_throughout_lifecycle:
-  # - text: "Reproductive health services are available at different stages of your life, from adolescence to menopause. These services address various reproductive health needs and are provided in an easily accessible and safe manner."
- 
-  # utter_right_to_choice_of_reproductive_health_service:
-  # - text: "You have the right to make choices regarding the reproductive health services you receive. This includes selecting the type of services that best meet your needs and preferences."
-
-  # utter_confidentiality_of_reproductive_health_services:
-  # - text: "Your reproductive health services are confidential. Information regarding the services you receive is kept private to ensure your privacy and confidentiality."
-  
-  # utter_ask_about_reproductive_health_rights:
-  # - text: "Reproductive health rights refer to the legal rights and freedoms relating to reproduction and reproductive health that vary among countries around the world. These rights help individuals to make informed decisions about their reproductive health without facing discrimination, coercion, or violence"
  
   utter_define_safe_abortion:
   - text: "Safe abortion refers to the termination of pregnancy under conditions that are safe for the woman, conducted by licensed healthcare providers, and in accordance with legal regulations."
@@ -158,6 +200,103 @@ responses:
 
   utter_confidentiality_of_reproductive_health_services:
   - text: "Confidentiality of reproductive health services ensures that information about the services individuals receive is kept private and confidential. This protects their privacy and promotes trust between patients and healthcare providers, facilitating open communication and access to quality care."
+
+  utter_reproductive_health_information:
+  - text: "Reproductive health information encompasses a wide range of topics crucial for overall well-being. It includes understanding reproductive anatomy and physiology, various contraceptive methods available, information about pregnancy, childbirth, and postpartum care. Additionally, it covers knowledge about sexually transmitted infections (STIs), their prevention, and treatment options. Reproductive health education empowers individuals to make informed decisions about their sexual and reproductive health, leading to healthier lives."
+
+# Chapter 6
+
+  utter_appropriate_grant_amount:
+  - text: "The government must allocate a grant amount annually for motherhood and reproductive health services at both local and provincial levels, as outlined in the law."
+
+  utter_appropriate_budget_by_local_level:
+  - text: "Local governments must allocate necessary funds from their annual budget for motherhood and reproductive health services, prioritizing governmental and community health institutions."
+
+  utter_establish_reproductive_health_coordination_committee:
+  - text: "A Reproductive Health Coordination Committee is established to provide suggestions on policies, plans, and programs related to safe motherhood and reproductive health."
+
+
+# Chapter rape
+  utter_report_rape:
+  - text: "I'm so sorry to hear that you've experienced this. It's important to consider reporting the incident to the authorities. You're not alone, and there are people who can help you through this."
+  
+  utter_seek_support:
+  - text: "I'm here to support you. It's completely normal to feel scared and overwhelmed right now. There are resources available to help you cope and heal. You can reach out to helplines, support groups, or counseling services for assistance."
+
+  utter_guide_to_support_services:
+  - text: "There are various support services available to survivors of sexual assault, including counseling services, support groups, and helplines. I can help you find resources in your area if you'd like."
+  
+  utter_offer_resources:
+  - text: "Here are some resources that may be helpful for you:
+      - National Sexual Assault Contact Info:987353764
+      - Local counseling center: [Maiti Nepal, Toll Free num: +16600199999]
+      - Support group for survivors: [NariShakti foundation,Lalitpur]
+      - You can also find information on and links to emergency contacts, relevant legal services, women centric social organizations and other support sercives on the Resources section of this website. 
+
+      Remember, it's okay to reach out for help and support whenever you need it."
+
+  # 1
+  utter_prohibition_of_incest:
+  - text: "Incest is strictly prohibited by law. Sexual intercourse between individuals falling within certain prohibited degrees of relationship is punishable by imprisonment. If you have any concerns or need more information, please seek legal advice."
+  
+  utter_prohibition_of_sexual_intercourse_with_detainee:
+  - text: "Having sexual intercourse with a person held in prison or detention is illegal. It's important to respect the rights and dignity of individuals in custody. If you have witnessed or experienced such misconduct, report it to the appropriate authorities immediately."
+
+  utter_prohibition_of_sexual_intercourse_in_protection:
+  - text: "Sexual intercourse with a person under one's protection, security, or custody is prohibited by law. This includes individuals receiving treatment or rehabilitation services for physical or mental health issues. Violators will face legal consequences."
+
+  utter_prohibition_of_sexual_intercourse_with_person_in_office:
+  - text: "Engaging in sexual intercourse with a person serving in a government or private office, or with someone receiving professional services, is strictly prohibited. Such behavior is unethical and can result in criminal charges."
+
+  utter_prohibition_of_sexual_harassment:
+  - text: "Sexual harassment is illegal and unacceptable. It includes various forms of unwanted sexual advances, gestures, or behavior. Victims of sexual harassment have the right to seek legal recourse and support services."
+
+  utter_prohibition_of_child_sexual_abuse:
+  - text: "Child sexual abuse is a serious crime and violation of human rights. It involves any form of sexual activity with a child, which is strictly prohibited by law. Perpetrators will face severe legal consequences."
+
+  utter_prohibition_of_unnatural_sexual_intercourse:
+  - text: "Engaging in unnatural sexual intercourse without consent is against the law. This includes any sexual activity that deviates from the norm and is considered unethical or immoral. Victims of such acts have legal protection and support."
+
+  utter_prohibition_of_bestiality:
+  - text: "Bestiality, or sexual intercourse with animals, is illegal and unethical. It constitutes animal cruelty and is punishable by law. Individuals who engage in such acts will face legal consequences."
+
+  utter_compensation_ordered_to_be_paid:
+  - text: "Victims of certain offenses may be entitled to compensation for the harm they have suffered. This includes compensation ordered by the court for specific offenses under the law. Legal assistance can help victims understand their rights."
+
+  utter_statute_of_limitation:
+  - text: "The statute of limitation determines the time frame within which legal action can be taken for certain offenses. It's important to be aware of the limitations period applicable to each offense to ensure timely reporting and pursuit of justice."
+  
+  utter_file_a_complaint:
+  - text: "Chapter 4 of the act details the complaint registration process for domestic violence cases. According to it, you have to do the following:
+           You can lodge a written or oral complaint with either the Police Office, National Women Commission, or Local Body.
+          If the complaint is filed with the National Women Commission, necessary action will be taken in accordance with prevailing National Women Commission law.
+          If the complaint is filed with the Police Office or Local Body, the perpetrator must be produced within 24 hours of the complaint. If the perpetrator refuses to appear for a statement, arrest may be made.
+          Within thirty days of registration of the complaint, reconciliation between the parties may be conducted if the victim desires and if it is found appropriate by the police officer or local body.
+          The presence of the perpetrator must be ensured during the investigation, prosecution, and decision-making process of the complaint.
+          If the perpetrator fails to appear, reconciliation fails, or if the parties cannot settle their dispute, the complaint, along with evidence and legal documents, shall be forwarded to the court within fifteen days after the expiration of the reconciliation period." 
+
+  
+
+  utter_national_penal_act:
+  - text: "I am sorry to hear that. The Right to Safe Motherhood and Reproductive Health Act, 2075 (2018) protects Nepali Women against forced abortions. Chapter 4, subsection 16 of the act declares that  no one shall get the abortion conducted by coercing a pregnant woman, threatening, enticing or tempting her.
+      As per the The National Penal (Code) Act, 2017 person who commits the offense referred to in subsection (1) or (2) shall be liable to:
+      A sentence of imprisonment for a term not exceeding one year and a fine not exceeding ten thousand rupees in the case of pregnancy of up to twelve weeks,
+      A sentence of imprisonment for a term not exceeding three years and a fine not exceeding thirty thousand rupees in the case of pregnancy of more than twelve weeks and up to twenty-five weeks,
+      A sentence of imprisonment for a term not exceeding five years and a fine not exceeding fifty thousand rupees in the case of pregnancy of more than twenty-five weeks"   
+  
+  # utter_file_a_complaint:
+  # - text: "Chapter 4 of the act details the complaint registration process for domestic violence cases. According to it, you have to do the following:
+
+
+  #         You can lodge a written or oral complaint with either the Police Office, National Women Commission, or Local Body.
+  #         If the complaint is filed with the National Women Commission, necessary action will be taken in accordance with prevailing National Women Commission law.
+  #         If the complaint is filed with the Police Office or Local Body, the perpetrator must be produced within 24 hours of the complaint. If the perpetrator refuses to appear for a statement, arrest may be made.
+  #         Within thirty days of registration of the complaint, reconciliation between the parties may be conducted if the victim desires and if it is found appropriate by the police officer or local body.
+  #         The presence of the perpetrator must be ensured during the investigation, prosecution, and decision-making process of the complaint.
+  #         If the perpetrator fails to appear, reconciliation fails, or if the parties cannot settle their dispute, the complaint, along with evidence and legal documents, shall be forwarded to the court within fifteen days after the expiration of the reconciliation period." 
+
+
+
 
 
 
