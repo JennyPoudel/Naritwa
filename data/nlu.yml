@@ -140,6 +140,211 @@ nlu:
     - What are my reproductive health rights?
     - Can you tell me about my rights regarding reproductive health?
     - I want to know what rights I have regarding reproductive health
+    - I want an abortion
+
+- intent: obtain_reproductive_health_information
+  examples: |
+    - How can I obtain information about reproductive health?
+    - Where can I find counseling for reproductive health?
+    - How do I access services related to reproductive health?
+
+- intent: safe_motherhood_rights
+  examples: |
+    - What does the right to safe motherhood entail?
+    - Can I choose the gap between my children?
+    - Do I have the right to determine the number of children I have?
+
+- intent: contraceptives_information
+  examples: |
+    - Where can I get information about contraceptives?
+    - How can I access contraceptives?
+    - Are there any resources available for learning about contraceptives?
+
+- intent: abortion_service_rights
+  examples: |
+    - Do I have the right to obtain abortion services?
+    - How can I access abortion services?
+    - Is abortion legal under certain circumstances?
+
+- intent: rights_during_pregnancy
+  examples: |
+    - What rights do I have during pregnancy?
+    - Can I receive nutritional support during pregnancy?
+    - Do I have the right to physical rest during pregnancy?
+
+- intent: postpartum_care_rights
+  examples: |
+    - What postpartum care services am I entitled to?
+    - Where can I find counseling for postpartum care?
+    - Is postpartum contraception provided?
+
+- intent: emergency_obstetric_care_rights
+  examples: |
+    - What emergency obstetric care rights do I have?
+    - Can I access emergency obstetric care services easily?
+    - Are emergency obstetric care services provided for newborns?
+
+- intent: reproductive_health_services_throughout_lifecycle
+  examples: |
+    - What reproductive health services are available throughout my lifecycle?
+    - Can I access reproductive health services at different stages of my life?
+    - Are there services tailored to different stages of life?
+
+- intent: right_to_choice_of_reproductive_health_service
+  examples: |
+    - Do I have the right to choose my reproductive health services?
+    - Can I make choices about the reproductive health services I receive?
+    - Is it possible to select specific reproductive health services?
+
+- intent: confidentiality_of_reproductive_health_services
+  examples: |
+    - Are my reproductive health services confidential?
+    - Will my information be kept private when accessing reproductive health services?
+    - Is confidentiality ensured when I seek reproductive health services?
+
+  version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: ask_about_rights
+  examples: |
+    - What are women's rights?
+    - Can you tell me about women's rights?
+    - How can I support women's rights?
+
+- intent: share_experience
+  examples: |
+    - I faced discrimination at work
+    - I experienced gender bias
+    - I want to share my story
+
+- intent: express_support
+  examples: |
+    - I support women's rights
+    - Women deserve equality
+    - I stand with women
+
+- intent: request_help
+  examples: |
+    - How can I help?
+    - What can I do to support?
+    - Is there anything I can do?
+# Chapter 1
+- intent: define_abortion
+  examples: |
+    - What is the definition of Abortion?
+    - Define Abortion.
+    - Can you explain what Abortion?
+    - What does the Act say about Abortion?
+
+- intent: define_contraception
+  examples: |
+    - What is Contraception?
+    - Define Contraception
+    - Can you explain what Contraception means?
+
+- intent: define_contraceptives
+  examples: |
+    - What are Contraceptives?
+    - Define Contraceptives.
+    - Can you explain what Contraceptives mean?
+    - What is meant by Contraceptives?
+
+# Chapter 2
+
+- intent: ask_about_reproductive_health_rights
+  examples: |
+    - What are my reproductive health rights?
+    - Can you tell me about my rights regarding reproductive health?
+    - I want to know what rights I have regarding reproductive health
+    - I want an abortion
 
 - intent: obtain_reproductive_health_information
   examples: |
