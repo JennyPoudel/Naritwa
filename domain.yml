@@ -78,23 +78,23 @@ responses:
   utter_define_contraceptives:
   - text: "Contraceptives are tools or medications used to prevent pregnancy. These include a wide range of options such as birth control pills, condoms, diaphragms, and long-acting reversible contraceptives like IUDs and implants."
 
-  utter_postpartum_care_rights:
-  - text: "After childbirth, you have the right to receive postpartum care including counseling, obstetric care, and access to contraception services to support your recovery and well-being."
+  # utter_postpartum_care_rights:
+  # - text: "After childbirth, you have the right to receive postpartum care including counseling, obstetric care, and access to contraception services to support your recovery and well-being."
 
-  utter_emergency_obstetric_care_rights:
-  - text: "You have the right to access emergency obstetric care for both yourself and your newborn. This includes basic and comprehensive emergency obstetric care, as well as essential care for the newborn baby."
+  # utter_emergency_obstetric_care_rights:
+  # - text: "You have the right to access emergency obstetric care for both yourself and your newborn. This includes basic and comprehensive emergency obstetric care, as well as essential care for the newborn baby."
   
-  utter_reproductive_health_services_throughout_lifecycle:
-  - text: "Reproductive health services are available at different stages of your life, from adolescence to menopause. These services address various reproductive health needs and are provided in an easily accessible and safe manner."
+  # utter_reproductive_health_services_throughout_lifecycle:
+  # - text: "Reproductive health services are available at different stages of your life, from adolescence to menopause. These services address various reproductive health needs and are provided in an easily accessible and safe manner."
  
-  utter_right_to_choice_of_reproductive_health_service:
-  - text: "You have the right to make choices regarding the reproductive health services you receive. This includes selecting the type of services that best meet your needs and preferences."
+  # utter_right_to_choice_of_reproductive_health_service:
+  # - text: "You have the right to make choices regarding the reproductive health services you receive. This includes selecting the type of services that best meet your needs and preferences."
 
-  utter_confidentiality_of_reproductive_health_services:
-  - text: "Your reproductive health services are confidential. Information regarding the services you receive is kept private to ensure your privacy and confidentiality."
+  # utter_confidentiality_of_reproductive_health_services:
+  # - text: "Your reproductive health services are confidential. Information regarding the services you receive is kept private to ensure your privacy and confidentiality."
   
-  utter_ask_about_reproductive_health_rights:
-  - text: "Reproductive health rights refer to the legal rights and freedoms relating to reproduction and reproductive health that vary among countries around the world. These rights help individuals to make informed decisions about their reproductive health without facing discrimination, coercion, or violence"
+  # utter_ask_about_reproductive_health_rights:
+  # - text: "Reproductive health rights refer to the legal rights and freedoms relating to reproduction and reproductive health that vary among countries around the world. These rights help individuals to make informed decisions about their reproductive health without facing discrimination, coercion, or violence"
  
   utter_define_safe_abortion:
   - text: "Safe abortion refers to the termination of pregnancy under conditions that are safe for the woman, conducted by licensed healthcare providers, and in accordance with legal regulations."
@@ -122,7 +122,42 @@ responses:
   utter_consent_for_safe_abortion_service:
   - text: "A pregnant woman seeking safe abortion services must give consent in the prescribed format to the licensed health institution or healthcare"
 
+  
+# new added
 
+
+  utter_ask_about_reproductive_health_rights:
+  - text: "Reproductive health rights encompass various legal rights and freedoms related to reproductive health. Would you like more information about specific reproductive health rights?"
+
+  utter_obtain_reproductive_health_information:
+  - text: "Accessing reliable reproductive health information is essential for making informed decisions about your health. You can obtain information from healthcare providers, reputable websites, or educational materials. If you have any specific questions, feel free to ask."
+
+  utter_safe_motherhood_rights:
+  - text: "Safe motherhood rights encompass the rights of pregnant individuals to access quality maternal healthcare services throughout pregnancy, childbirth, and the postpartum period. These rights include the right to receive prenatal care, skilled attendance during childbirth, access to emergency obstetric care, and postnatal care for both the mother and the newborn. Ensuring safe motherhood rights is crucial for reducing maternal mortality and morbidity and promoting the health and well-being of mothers and their babies."
+
+  utter_contraceptives_information:
+  - text: "Contraceptives are methods or devices used to prevent pregnancy. Information about contraceptives, including their types, effectiveness, and usage instructions, can be obtained from healthcare providers, family planning clinics, or reputable online resources. If you're interested in learning more about contraceptives, I can provide additional details."
+
+  utter_abortion_service_rights:
+  - text: "Abortion service rights include the right of individuals to access safe and legal abortion services where permitted by law. These rights ensure that individuals have access to comprehensive reproductive healthcare, including abortion services, counseling, and post-abortion care. If you have questions or need information about abortion services, feel free to ask."
+
+  utter_rights_during_pregnancy:
+  - text: "During pregnancy, individuals have various rights related to maternal healthcare, including the right to receive prenatal care, make decisions about their healthcare, and access support services. These rights are essential for ensuring the health and well-being of both the mother and the baby throughout pregnancy."
+
+  utter_postpartum_care_rights:
+  - text: "After childbirth, individuals have the right to receive postpartum care, including medical check-ups, counseling, and support services. Postpartum care rights aim to promote the physical and emotional well-being of mothers and their newborns during the postpartum period."
+
+  utter_emergency_obstetric_care_rights:
+  - text: "Emergency obstetric care rights ensure that individuals have access to timely and appropriate medical care in case of obstetric emergencies during pregnancy, childbirth, or the postpartum period. These rights are crucial for reducing maternal mortality and morbidity and saving lives."
+
+  utter_reproductive_health_services_throughout_lifecycle:
+  - text: "Reproductive health services are available at different stages of life, from adolescence to menopause. These services address various reproductive health needs, including family planning, sexual health, and maternal healthcare. Access to comprehensive reproductive health services is essential for promoting overall health and well-being throughout the lifecycle."
+
+  utter_right_to_choice_of_reproductive_health_service:
+  - text: "Individuals have the right to make choices regarding the reproductive health services they receive. This includes selecting the type of services that best meet their needs and preferences, whether it's contraception, prenatal care, abortion services, or other reproductive health services."
+
+  utter_confidentiality_of_reproductive_health_services:
+  - text: "Confidentiality of reproductive health services ensures that information about the services individuals receive is kept private and confidential. This protects their privacy and promotes trust between patients and healthcare providers, facilitating open communication and access to quality care."
 
 
 
