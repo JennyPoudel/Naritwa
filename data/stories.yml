@@ -148,6 +148,9 @@ stories:
   - action: utter_greet
   - intent: reproductive_health_services_throughout_lifecycle
   - action: utter_reproductive_health_services_throughout_lifecycle
+  - intent: appropriate_budget_by_local_level
+  - action: utter_appropriate_budget_by_local_level
+
 
 - story: right_to_choice_of_reproductive_health_service path
   steps:
@@ -163,3 +166,136 @@ stories:
   - intent: confidentiality_of_reproductive_health_services
   - action: utter_confidentiality_of_reproductive_health_services
 
+# Chapter Rape
+
+- story: Provide Support to Victim of Sexual Assault
+  steps:
+  - intent: report_rape
+  - action: utter_report_rape
+  - action: utter_prohibition_of_sexual_harassment
+  - action: utter_prohibition_of_unnatural_sexual_intercourse
+  - action: utter_compensation_ordered_to_be_paid
+  - intent: offer_resources
+  - action: utter_offer_resources
+
+ 
+- story: Incest Prohibition Inquiry
+  steps:
+  - intent: prohibition_of_incest
+  - action: utter_prohibition_of_incest
+
+
+- story: Sexual Intercourse in Protection
+  steps:
+  - intent: prohibition_of_sexual_intercourse_in_protection
+  - action: utter_prohibition_of_sexual_intercourse_in_protection
+
+- story: Sexual Intercourse with Person in Office
+  steps:
+  - intent: prohibition_of_sexual_intercourse_with_person_in_office
+  - action: utter_prohibition_of_sexual_intercourse_with_person_in_office
+
+- story: Sexual Harassment Inquiry
+  steps:
+  - intent: prohibition_of_sexual_harassment
+  - action: utter_prohibition_of_sexual_harassment
+
+- story: Child Sexual Abuse Inquiry
+  steps:
+  - intent: prohibition_of_child_sexual_abuse
+  - action: utter_prohibition_of_child_sexual_abuse
+
+- story: Unnatural Sexual Intercourse Inquiry
+  steps:
+  - intent: prohibition_of_unnatural_sexual_intercourse
+  - action: utter_prohibition_of_unnatural_sexual_intercourse
+
+
+- story: Compensation Order Inquiry
+  steps:
+  - intent: compensation_ordered_to_be_paid
+  - action: utter_compensation_ordered_to_be_paid
+
+- story: Statute of Limitation Query
+  steps:
+  - intent: statute_of_limitation
+  - action: utter_statute_of_limitation
+
+- story: c
+  steps:
+    - intent: safe_motherhood_rights
+    - action: utter_safe_motherhood_rights
+- story: d
+  steps:
+    - intent: contraceptives_information
+    - action: utter_contraceptives_information
+- story: e
+  steps:
+    - intent: abortion_service_rights
+    - action: utter_abortion_service_rights
+- story: f
+  steps:
+    - intent: rights_during_pregnancy
+    - action: utter_rights_during_pregnancy
+    - action: utter_safe_motherhood_rights
+    - action: utter_postpartum_care_rights
+    - action: utter_right_to_choice_of_reproductive_health_service
+- story: g
+  steps:
+    - intent: postpartum_care_rights
+    - action: utter_postpartum_care_rights
+    - action: utter_emergency_obstetric_care_rights
+    - action: utter_right_to_choice_of_reproductive_health_service
+- story: h
+  steps:
+    - intent: emergency_obstetric_care_rights
+    - action: utter_emergency_obstetric_care_rights
+- story: i
+  steps:
+    - intent: reproductive_health_services_throughout_lifecycle
+    - action: utter_reproductive_health_services_throughout_lifecycle
+- story: j
+  steps:
+    - intent: right_to_choice_of_reproductive_health_service
+    - action: utter_right_to_choice_of_reproductive_health_service
+- story: k
+  steps:
+    - intent: confidentiality_of_reproductive_health_services
+    - action: utter_confidentiality_of_reproductive_health_services
+- story: l
+  steps:
+    - intent: appropriate_grant_amount
+    - action: utter_appropriate_grant_amount
+- story: m
+  steps:
+    - intent: appropriate_budget_by_local_level
+    - action: utter_appropriate_budget_by_local_level
+# - story: q
+#   steps:
+#     - intent: establish_reproductive_health_coordination_committee
+#     - action: utter_reproductive_health_coordination_committee_establishment
+#  story
+- story: legal_adivce_for_abortion
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: national_penal_act
+  - action: utter_national_penal_act
+  - intent: time_limit
+  - action: utter_time_limit
+  - intent: girl_child
+  - action: utter_girl_child
+  - intent: domestic_violence
+  - action: utter_domestic_violence
+  - intent: file_a_complaint
+  - action: utter_file_a_complaint
+  - intent: victim_rights
+  - action: utter_victim_rights
+  - intent: offer_resources
+  - action: utter_offer_resources
+  - intent: thankyou
+  - action: utter_thankyou
+  
+  
+  
+  
